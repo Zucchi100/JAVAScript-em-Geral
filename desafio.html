@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script aulas em geral</title>
+</head>
+<body>
+    
+
+
+</body>
+<script>
+
+const cart = [10,244,99,2,20,33,250]
+const values = [10,244,99,2,20,33,250]  
+let finalvalue = 0
+let amount = 0 
+
+
+values.forEach((value) => {
+    amount = amount + value
+});
+
+
+function calculatediscount (price,discount) {
+const result = (price * discount) / 100
+return result
+
+}
+
+
+cart.forEach((value) => {
+if (value => 30) {
+const discount = calculatediscount(value, 10)
+finalvalue = finalvalue + (value - discount)
+
+} else {
+    finalvalue = finalvalue + value
+}
+
+    
+});
+    
+console.log (`o valor final da compra foi de R$ ${amount}, 
+Porém você teve desconto e irá pagar R$ ${finalvalue}, 
+você economizou R$ ${"62,40"}`)
+
+
+
+
+
+
+
+
+
+</script>
+</html>
