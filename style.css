@@ -85,3 +85,14 @@ color: rgb(rgb(15, 27, 201));
     color: rgba(202, 53, 53, 0.856);
 }
 
+@media (max-width: 850px) {
+
+    
+body {
+
+    background: greenyellow;
+
+}
+
+
+}
